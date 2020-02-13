@@ -32,6 +32,7 @@ public class NewTestNG {
 	  String expectedTitle = "Welcome: Mercury Tours";
 	  String actualTitle = driver.getTitle();
 	  Assert.assertEquals(actualTitle, expectedTitle);
+	  System.out.println("Verified Title of Application");
 	  
   }
  
