@@ -29,6 +29,7 @@ public class NewTestNG {
 	  
 	  System.out.println("launching Application");
 	  driver.get(baseURL);
+	  System.out.println(driver.get(baseURL););
 	  String expectedTitle = "Welcome: Mercury Tours";
 	  String actualTitle = driver.getTitle();
 	  Assert.assertEquals(actualTitle, expectedTitle);
