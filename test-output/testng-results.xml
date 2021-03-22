@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5648" started-at="2020-01-05T07:36:05Z" finished-at="2020-01-05T07:36:11Z">
+  <suite name="Default suite" duration-ms="3959" started-at="2021-03-22T15:21:37Z" finished-at="2021-03-22T15:21:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5648" started-at="2020-01-05T07:36:05Z" finished-at="2020-01-05T07:36:11Z">
-      <class name="testscripts.GmailLogin">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testscripts.GmailLogin@490ab905]" name="beforeTest" is-config="true" duration-ms="3906" started-at="2020-01-05T02:36:05Z" finished-at="2020-01-05T02:36:09Z">
+    <test name="Default test" duration-ms="3959" started-at="2021-03-22T15:21:37Z" finished-at="2021-03-22T15:21:41Z">
+      <class name="testmaven.NewTestNG">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testmaven.NewTestNG@72d818d1]" name="beforeTest" is-config="true" duration-ms="2826" started-at="2021-03-22T11:21:37Z" finished-at="2021-03-22T11:21:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testActions()[pri:0, instance:testscripts.GmailLogin@490ab905]" name="testActions" duration-ms="1721" started-at="2020-01-05T02:36:09Z" finished-at="2020-01-05T02:36:11Z">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:testmaven.NewTestNG@72d818d1]" name="verifyHomepageTitle" duration-ms="1005" started-at="2021-03-22T11:21:40Z" finished-at="2021-03-22T11:21:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testActions -->
-      </class> <!-- testscripts.GmailLogin -->
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testmaven.NewTestNG@72d818d1]" name="afterTest" is-config="true" duration-ms="111" started-at="2021-03-22T11:21:41Z" finished-at="2021-03-22T11:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testmaven.NewTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
