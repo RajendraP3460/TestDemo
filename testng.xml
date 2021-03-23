@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <!-- <class name="testmaven.NewTestNG"/> -->
-      <class name="testscripts.DemoProperties"/>
+      <class name="testmaven.NewTestNG"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

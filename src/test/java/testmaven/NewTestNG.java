@@ -29,13 +29,18 @@ public class NewTestNG {
 	  
 	  System.out.println("launching Application");
 	  driver.get(baseURL);
-	  System.out.println(driver.get(baseURL));
+	  //System.out.println(driver.get(baseURL));
 	  System.out.println("After Capturing the Title");
 	  String expectedTitle = "Welcome: Mercury Tours";
 	  String actualTitle = driver.getTitle();
 	  Assert.assertEquals(actualTitle, expectedTitle);
 	  System.out.println("Verified Title of Application");
 	  
+  }
+  
+  @Test
+  public void SecoindTest(){
+	  System.out.println("THis is Second Test");
   }
  
 

@@ -41,7 +41,7 @@ public class DemoProperties {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(baseURL);
-		System.out.println(driver.get(baseURL));
+		//System.out.println(driver.get(baseURL));
 		
 		// Nagigate to link Mobile Testing and Back		
 	    driver.findElement(By.xpath(obj.getProperty("MobileTesting"))).click();							

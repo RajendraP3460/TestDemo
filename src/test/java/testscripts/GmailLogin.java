@@ -23,7 +23,7 @@ public class GmailLogin {
 	public WebDriver driver;
 	String driverPath = "C:\\Automation\\Selenium\\Latest_Dirvers\\chromedriver.exe";
 	
-	  @BeforeTest
+	  //@BeforeTest
 	  public void beforeTest() {
 		  
 		    System.setProperty("webdriver.chrome.driver", driverPath);
@@ -68,7 +68,7 @@ public class GmailLogin {
 		  
 	  }
 	  
-	  @	AfterTest
+	 // @	AfterTest
 	  public void afterTest(){
 		  driver.close();
 	  }
